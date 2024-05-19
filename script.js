@@ -54,14 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .setTween(contactTween)
     .addTo(controller);
 
-  // Header and footer animations
-  gsap.from("header", {
-    duration: 1,
-    y: -100,
-    opacity: 0,
-    ease: "power2.out"
-  });
-
+  // Footer animation
   gsap.from("footer", {
     duration: 1,
     y: 100,
